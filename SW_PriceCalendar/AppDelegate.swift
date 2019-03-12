@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SWPublicModule
+//  SW_PriceCalendar
 //
-//  Created by 袁灿 on 2019/2/12.
+//  Created by 袁灿 on 2019/2/18.
 //  Copyright © 2019年 火山. All rights reserved.
 //
 
@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let caldendar = CalendarVC(nibName:nil, bundle:nil)
+        let navigation = UINavigationController(rootViewController: caldendar)
+        self.window?.rootViewController = navigation
+        self.window?.backgroundColor = UIColor.white
+        
         return true
     }
 

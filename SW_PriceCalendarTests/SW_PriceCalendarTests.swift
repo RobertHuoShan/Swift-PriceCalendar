@@ -1,15 +1,15 @@
 //
-//  SWPublicModuleTests.swift
-//  SWPublicModuleTests
+//  SW_PriceCalendarTests.swift
+//  SW_PriceCalendarTests
 //
-//  Created by 袁灿 on 2019/2/12.
+//  Created by 袁灿 on 2019/2/18.
 //  Copyright © 2019年 火山. All rights reserved.
 //
 
 import XCTest
-@testable import SWPublicModule
+@testable import SW_PriceCalendar
 
-class SWPublicModuleTests: XCTestCase {
+class SW_PriceCalendarTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
